@@ -1,0 +1,25 @@
+{
+  "name": "Vikrant Karanjkar - MFD Analytics",
+  "short_name": "MFD Analytics",
+  "description": "Mutual Fund Distributor Analytics Dashboard - ARN-312733",
+  "start_url": "./vikrant_analytics.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b2545",
+  "theme_color": "#0d5c9c",
+  "categories": ["finance", "business", "productivity"],
+  "lang": "en-IN",
+  "dir": "ltr",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "vikrant.jpg",  "sizes": "any",     "type": "image/jpeg", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Client Report", "short_name": "Report",  "url": "./vikrant_analytics.html?view=report" },
+    { "name": "Compare Funds", "short_name": "Compare", "url": "./vikrant_analytics.html?view=compare" },
+    { "name": "Alerts",        "short_name": "Alerts",  "url": "./vikrant_analytics.html?view=alerts" }
+  ]
+}
